@@ -29,6 +29,7 @@ import {
   ChevronRight,
   Globe
 } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 interface Website {
   id: string;
@@ -150,6 +151,10 @@ export default function Home() {
                   <span>GitHub</span>
                 </a>
               </Button>
+
+              <div className="fixed top-4 right-4 z-50">
+                <ThemeToggle />
+              </div>
             </div>
 
             {/* Animated Dots */}
@@ -258,6 +263,7 @@ export default function Home() {
             <Button variant="ghost" size="icon">
               <Globe className="h-5 w-5" />
             </Button>
+            <ThemeToggle />
           </div>
           <p className="text-muted-foreground">
             © {new Date().getFullYear()} Joonhoe. All rights reserved.
