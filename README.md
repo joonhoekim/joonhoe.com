@@ -2,7 +2,7 @@
 
 A modern, responsive website hub that provides easy navigation to all my personal websites and projects.
 
-![Joonhoe.com](https://joonhoe.com/preview.png)
+Link: [Joonhoe.com](https://joonhoe.com/preview.png)
 
 ## Features
 
