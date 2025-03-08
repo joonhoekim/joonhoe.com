@@ -1,16 +1,3 @@
-/**
- * List of my websites
- * 
- * ai.joonhoe.com
- * metube.joonhoe.com
- * nas.joonhoe.com
- * stat.joonhoe.com
- * blog.joonhoe.com (under construction)
- * joonhoe.com (this page)
- * joonhoe.com/about (this project)
- * 
- */
-
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
